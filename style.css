@@ -40,11 +40,14 @@ button {
     width: 100px;
 }
 
+.hero, .gallery, .quote {
+    padding: 10px 100px 100px;
+}
+
 .hero {
     background-color: #1F2937;
     display: flex;
     flex-direction: column;
-    padding: 10px 100px 100px;
 }
 
 .hero a, .title-subtext {
@@ -94,7 +97,6 @@ button {
 .gallery {
     display: flex;
     flex-direction: column;
-    padding: 10px 100px 100px;
     text-align: center;
 }
 
@@ -125,4 +127,25 @@ button {
 .carousel-subtext {
     font-size: 15px;
     color: #4a4c4e;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    padding-bottom:  10px;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-weight:light;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.quote-tag {
+    color: #1F2937;
+    font-weight: bold;
+    font-size: 20px;
+    align-self: flex-end;
 }
