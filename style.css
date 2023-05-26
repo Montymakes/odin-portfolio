@@ -64,6 +64,7 @@ button {
 .title-sign-up {
     display: flex;
     gap: 50px;
+    justify-content: center;
 }
 
 .title-text {
@@ -109,6 +110,7 @@ button {
 .carousel-wrapper {
     display: flex;
     gap: 10px;
+    justify-content: center;
 }
 
 .carousel-item {
@@ -130,10 +132,16 @@ button {
 }
 
 .quote {
-    display: flex;
-    flex-direction: column;
+    
     background-color: #E5E7EB;
     padding-bottom:  10px;
+}
+
+.quote-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
 }
 
 .quote-text {
